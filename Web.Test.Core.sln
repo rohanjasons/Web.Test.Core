@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Test.Core", "Web.Test.Core\Web.Test.Core.csproj", "{90D690E1-DFCB-4789-B8A9-736FF42E4FAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Test.Core", "Web.Test.Core\Web.Test.Core.csproj", "{90D690E1-DFCB-4789-B8A9-736FF42E4FAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{17241072-B712-4E87-9E98-A45860B79F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{5DCB1F6C-AD52-4F51-A48A-D51201972F7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StyleCop", "StyleCop", "{9E83091F-90AF-4966-B9B6-D6A3A4032F24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +24,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DCB1F6C-AD52-4F51-A48A-D51201972F7F} = {17241072-B712-4E87-9E98-A45860B79F9F}
+		{9E83091F-90AF-4966-B9B6-D6A3A4032F24} = {17241072-B712-4E87-9E98-A45860B79F9F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BF8A6C36-3216-4022-AFFB-2A3C64AE5E35}
